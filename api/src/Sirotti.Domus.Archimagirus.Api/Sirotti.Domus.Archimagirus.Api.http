@@ -1,0 +1,6 @@
+@Sirotti.Domus.Archimagirus.Api_HostAddress = http://localhost:5056
+
+GET {{Sirotti.Domus.Archimagirus.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
