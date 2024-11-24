@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5841773D-D32
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirotti.Domus.Archimagirus.Api", "src\Sirotti.Domus.Archimagirus.Api\Sirotti.Domus.Archimagirus.Api.csproj", "{B050A8AA-9225-4163-BE7D-96F6F3442691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirotti.Domus.Archimagirus.Common", "src\Sirotti.Domus.Archimagirus.Common\Sirotti.Domus.Archimagirus.Common.csproj", "{A6034521-588E-4EC7-9229-B396352CE848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirotti.Domus.Archimagirus.Domain", "src\Sirotti.Domus.Archimagirus.Domain\Sirotti.Domus.Archimagirus.Domain.csproj", "{C74D3CBE-49CD-4939-BE06-093505971D25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{B050A8AA-9225-4163-BE7D-96F6F3442691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B050A8AA-9225-4163-BE7D-96F6F3442691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B050A8AA-9225-4163-BE7D-96F6F3442691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6034521-588E-4EC7-9229-B396352CE848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6034521-588E-4EC7-9229-B396352CE848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6034521-588E-4EC7-9229-B396352CE848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6034521-588E-4EC7-9229-B396352CE848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74D3CBE-49CD-4939-BE06-093505971D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74D3CBE-49CD-4939-BE06-093505971D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74D3CBE-49CD-4939-BE06-093505971D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74D3CBE-49CD-4939-BE06-093505971D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B050A8AA-9225-4163-BE7D-96F6F3442691} = {5841773D-D32E-414B-B476-DC99ADBC60ED}
+		{A6034521-588E-4EC7-9229-B396352CE848} = {5841773D-D32E-414B-B476-DC99ADBC60ED}
+		{C74D3CBE-49CD-4939-BE06-093505971D25} = {5841773D-D32E-414B-B476-DC99ADBC60ED}
 	EndGlobalSection
 EndGlobal

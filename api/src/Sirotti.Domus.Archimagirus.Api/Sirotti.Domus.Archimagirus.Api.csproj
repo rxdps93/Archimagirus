@@ -4,10 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Sirotti.Domus.Archimagirus.Common/Sirotti.Domus.Archimagirus.Common.csproj" />
+    <ProjectReference Include="../Sirotti.Domus.Archimagirus.Domain/Sirotti.Domus.Archimagirus.Domain.csproj" />
   </ItemGroup>
 
 </Project>
