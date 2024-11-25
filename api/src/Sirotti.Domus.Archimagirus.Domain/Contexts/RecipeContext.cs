@@ -14,6 +14,10 @@ public class RecipeContext : DbContext
     public virtual DbSet<RecipeIngredient> RecipeIngredients { get; set; }
     public virtual DbSet<RecipeTag> RecipeTags { get; set; }
 
+    public RecipeContext(DbContextOptions<RecipeContext> context) : base(context)
+    {
+    }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema(_dbSchema);

@@ -8,7 +8,7 @@ public class Ingredient
     [Column(TypeName = "int")]
     public int ID { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(256)")]
     public required string Name { get; set; }
 
     public ICollection<Recipe> Recipes { get; set; } = new List<Recipe>();

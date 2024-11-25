@@ -8,16 +8,16 @@ public class Recipe
     [Column(TypeName = "int")]
     public int ID { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(256)")]
     public required string Name { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(max)")]
     public string? Description { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(max)")]
     public required string Instructions { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(max)")]
     public string? Source { get; set; }
 
     public ICollection<Ingredient> Ingredients { get; set; } = new List<Ingredient>();

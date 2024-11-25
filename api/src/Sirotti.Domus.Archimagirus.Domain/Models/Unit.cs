@@ -8,10 +8,10 @@ public class Unit
     [Column(TypeName = "int")]
     public int ID { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(128)")]
     public required string Name { get; set; }
 
-    [Column(TypeName = "nvarchar")]
+    [Column(TypeName = "nvarchar(32)")]
     public required string Label { get; set; }
 
     public ICollection<Recipe> Recipes { get; set; } = new List<Recipe>();
