@@ -1,0 +1,235 @@
+[
+    {
+        "Name": "Chocolate Milkshake",
+        "Description": "A classic favorite cold dessert.",
+        "Instructions": [
+            "Add ice cream to blender.",
+            "Pour milk into blender",
+            "Add ovaltine to blender",
+            "Blend until fully mixed.",
+            "To get desired consistency add ice cream to thicken or milk to thin.",
+            "To get desired flavor add ovaltine to taste."
+        ],
+        "Ingredients": [
+            {
+                "Name": "Ice Cream",
+                "Quantity": 4,
+                "Unit": {
+                    "Name": "Scoops",
+                    "Label": ""
+                }
+            },
+            {
+                "Name": "Milk",
+                "Quantity": 0.5,
+                "Unit": {
+                    "Name": "Cups",
+                    "Label": "C"
+                }
+            },
+            {
+                "Name": "Chocolate Malt Ovaltine",
+                "Quantity": 4,
+                "Unit": {
+                    "Name": "Tablespoons",
+                    "Label": "T"
+                }
+            }
+        ],
+        "Source": "My Mom",
+        "Tags": [
+            "Dessert",
+            "Drink",
+            "Comfort Food",
+            "Family Recipe"
+        ]
+    },
+    {
+        "Name": "Fresh Guacamole",
+        "Description": "Delicious guacamole - great on chips!",
+        "Instructions": [
+            "Cut the avocados in half, open them, and place the green innards in a bowl.",
+            "Mash the avocados.",
+            "Add lime juice; continue to mix.",
+            "Chop the cilantro, tomato, and onion; Add them to the avocado.",
+            "Add salt to taste and mix thoroughly."
+        ],
+        "Ingredients": [
+            {
+                "Name": "Avocado",
+                "Quantity": 4,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            },
+            {
+                "Name": "Red Onion",
+                "Quantity": 0.5,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            },
+            {
+                "Name": "Tomato",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            },
+            {
+                "Name": "Cilantro",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Tablespoons",
+                    "Label": "T"
+                }
+            },
+            {
+                "Name": "Lime",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            }
+        ],
+        "Source": "https://based.cooking/guacamole/",
+        "Tags": [
+            "Dip",
+            "Mexican",
+            "From Website"
+        ]
+    },
+    {
+        "Name": "Garlic Lime Chicken",
+        "Description": "An easy freezer meal recipe that can come together quickly in a slow cooker or in the oven.",
+        "Instructions": [
+            "Add all of the ingredients into a large gallon sized ziplock freezer bag.",
+            "Freeze until needed or allow to marinate in the refrigerator overnight.",
+            "If preparing in the oven: Pour contents of bag into an oven safe dish and bake at 400° F for 25-35 minutes, or until an internal temperature of 165° F.",
+            "If preparing in the slow cooker: Pour contents of bag into slow cooker and let cook for 4-5 hours on high."
+        ],
+        "Ingredients": [
+            {
+                "Name": "Chicken Breast",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Pounds",
+                    "Label": "Lbs"
+                }
+            },
+            {
+                "Name": "Onion",
+                "Quantity": 1,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            },
+            {
+                "Name": "Garlic",
+                "Quantity": 4,
+                "Unit": {
+                    "Name": "Cloves",
+                    "Label": ""
+                }
+            },
+            {
+                "Name": "Lime",
+                "Quantity": 1,
+                "Unit": {
+                    "Name": "Units",
+                    "Label": "x"
+                }
+            },
+            {
+                "Name": "Cilantro",
+                "Quantity": 0.25,
+                "Unit": {
+                    "Name": "Cups",
+                    "Label": "C"
+                }
+            },
+            {
+                "Name": "Chili Powder",
+                "Quantity": 1,
+                "Unit": {
+                    "Name": "Teaspoons",
+                    "Label": "t"
+                }
+            },
+            {
+                "Name": "Chicken Stock",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Cups",
+                    "Label": "C"
+                }
+            },
+            {
+                "Name": "Red Pepper Flakes",
+                "Quantity": 0.5,
+                "Unit": {
+                    "Name": "Teaspoons",
+                    "Label": "t"
+                }
+            }
+        ],
+        "Source": "https://www.primallyinspired.com/garlic-lime-chicken-recipe-paleo/",
+        "Tags": [
+            "Freezer Meals",
+            "Dinner",
+            "From Website"
+        ]
+    },
+    {
+        "Name": "Grilled Cheese Sandwich",
+        "Description": "A classic and simple sandwich.",
+        "Instructions": [
+            "Spread butter onto one side of each slice of bread.",
+            "Put a skillet on the stove on medium/low heat.",
+            "Place one slice of bread into skillet, butter side down.",
+            "Place cheese on top of the bread in the skillet.",
+            "Place the remaining slice of bread on the cheese, butter side up.",
+            "Cover skillet and wait until bottom slice is golden brown.",
+            "Carefully flip and cover.",
+            "Once golden brown and cheese is adequately melted, the sandwich is ready."
+        ],
+        "Ingredients": [
+            {
+                "Name": "Bread",
+                "Quantity": 2,
+                "Unit": {
+                    "Name": "Slices",
+                    "Label": ""
+                }
+            },
+            {
+                "Name": "Cheese",
+                "Quantity": 4,
+                "Unit": {
+                    "Name": "Slices",
+                    "Label": ""
+                }
+            },
+            {
+                "Name": "Butter",
+                "Quantity": 1,
+                "Unit": {
+                    "Name": "Pats",
+                    "Label": ""
+                }
+            }
+        ],
+        "Source": "Me",
+        "Tags": [
+            "Sandwich",
+            "Lunch",
+            "Comfort Food",
+            "Family Recipe"
+        ]
+    }
+]

@@ -4,7 +4,15 @@ namespace LoadRecipeTestData
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("todo");
+            ConfigurationHelper.SetupConfiguration();
+            if (!ConfigurationHelper.ValidateConfigurations())
+            {
+                Console.WriteLine("Invalid configuration");
+                return;
+            }
+
+            Console.WriteLine("Loading recipe data");
+            // todo
         }
     }
 }
