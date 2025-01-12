@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using System.Text;
 using LoadRecipeTestData.DataModels;
 using Newtonsoft.Json;
@@ -23,23 +24,43 @@ namespace LoadRecipeTestData
         private static void LoadData(string path)
         {
             dynamic json = JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(path))!;
+
             foreach (dynamic r in json)
             {
-                var recipe = new Recipe
+                var recipe = new RecipeLoad
                 {
-                    Name = r.Name,
+                    RecipeName = r.Name,
                     Description = r.Description,
                     Instructions = string.Join('|', r.Instructions),
                     Source = r.Source,
+                    Ingredients = new List<(string, decimal, string, string)>(),
+                    Tags = new List<string>(),
                 };
 
-                var ingredients = new List<Ingredient>();
-                foreach (var i in r.Ingredients)
+                foreach (var t in r.Tags)
                 {
-
+                    recipe.Tags.Add(t.ToString());
                 }
 
-                // Console.WriteLine($"\t{recipe.Name}\n\t\t{recipe.Description}\n\t\t{recipe.Instructions}\n\t\t{recipe.Source}");
+                foreach (var i in r.Ingredients)
+                {
+                    recipe.Ingredients.Add(
+                        (
+                            i.Name,
+                            i.Quantity,
+                            i.Unit.Name,
+                            i.Unit.Label
+                        ));
+                }
+
+                Console.WriteLine(
+                    $"\t{recipe.RecipeName}\n" +
+                    $"\t\t{recipe.Description}\n" +
+                    $"\t\t{recipe.Instructions}" +
+                    $"\t\t{recipe.Source}" +
+                    $"\t\t{string.Join(',', recipe.Ingredients)}" +
+                    $"\t\t{string.Join(',',  recipe.Tags)}"
+                );
             }
         }
     }
